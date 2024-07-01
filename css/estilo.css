@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --color_01: #000000;
+    --color_02: #AAA9A9;
+    --color_03: #d9d9d9;
+    --color_04: #FFFDFD;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue';
+}
+
+.container {
+    border: 3px solid var(--color_02);
+    margin: auto;
+    width: 65%;
+}
+
+body {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    background-color: var(--color_01);
+    color: var(--white);
+    width: 100%;
+    height: 10em;
+    text-align: center;
+    align-content: center;
+}
+
+.header img {
+    width: 450px;
+    height: auto;
+}
+
+.nav {
+    border: 1px solid var(--color_03);
+    background-color: var(--color_02);
+    width: 100%;
+    height: 65px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.nav a:hover {
+    color: var(--white);
+    transition: 0.5s;
+}
+
+.nav ul {
+    height: 100%;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 16px 25px;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.ativo {
+    background-color: #00000085;
+    border-radius: 3px;
+}
+
+#cor_ativo {
+    color: var(--color_04);
+}
+
+/* ------------ Página Home ------------ */
+
+.section_home_1 {
+    max-width: 100%;
+}
+
+.section_home_1 img {
+    width: 100%;
+    height: auto;
+}
+
+.section_home_2 {
+    background-color: var(--color_03);
+    height: 550px;
+}
+
+.section_home_2 h2 {
+    background-color: var(--color_02);
+    border: 2px solid #000000;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 80px;
+    font-size: 50px;
+    padding: 5px;
+    width: 18em;
+}
+
+#titulo_home {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+#sub_home_1 {
+    background-color: var(--color_02);
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-size: 28px;
+    padding: 15px;
+    text-align: justify;
+    margin: 0px 50px 50px;
+}
+
+#sub_home_2 {
+    background-color: var(--color_02);
+    font-size: 35px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    width: 27em;
+}
+
+/* ------------ Página Sobre ------------ */
+
+.section_sobre_1 {
+    max-width: 100%;
+}
+
+.section_sobre_1 img {
+    width: 100%;
+}
+
+.section_sobre_2 {
+    background-color: var(--color_03);
+    padding: 35px;
+}
+
+#sub_sobre {
+    border: 2px solid #000000;
+    border-radius: 25px;
+    font-size: 25px;
+    text-align: justify;
+    padding: 25px;
+}
+
+/* ------------ Página Curiosidades ------------ */
+
+.section_curio_1 img {
+    width: 100%;
+    height: auto;
+}
+
+.card_container {
+    background-color: var(--color_03);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    width: 350px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px #000000;
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-content h3 {
+    font-size: 26px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #000000;
+}
+
+.card-content p {
+    text-align: justify;
+    color: #131313;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.card-content .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: var(--color_02);
+    color: #000000;
+    transition: 0.5s;
+}
+
+/* ------------ Página Série ------------ */
+
+.section_serie_1 img {
+    width: 100%;
+    height: auto;
+}
+
+/* ------------ Rodapé ------------ */
+
+.footer {
+    background-color: var(--color_01);
+    height: 150px;
+    color: white;
+}
+
+#text_footer {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+}
+
+#icons img {
+    width: 30px;
+    padding: 0px 10px
+}
