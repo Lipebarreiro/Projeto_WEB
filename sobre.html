@@ -4,8 +4,9 @@
     <title>Sobre</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
     <link rel="shortcut icon" href="img/icon.jpg">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -14,13 +15,38 @@
             <img src="img/header.png">
         </div>
 
-        <div class="nav">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li class="ativo"><a href="#"><span id="cor_ativo">SOBRE</span></a></li>
-                <li><a href="curiosidades.html">CURIOSIDADES</a></li>
-                <li><a href="serie.html">SERIE</a></li>
-            </ul>
+        <div class="navbar">
+            <div class="navbar_logo">
+                <img src="img/nav_logo.png">
+            </div>
+
+            <a href="#" class="navbar_button">
+                <span class="bar" id="top"></span>
+                <span class="bar" id="center"></span>
+                <span class="bar" id="botton"></span>
+            </a>
+
+            <div class="navbar_links">
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li class="ativo"> <a href="#">Sobre</a> </li>
+                    <li> <a href="curiosidades.html">Curiosidades</a> </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="drop_button">
+                                Jogos &#9660;
+                            </button>
+                            <div class="drop_content">
+                                <a href="https://www.playstation.com/pt-br/games/the-last-of-us-part-i/"
+                                    target="_blank">The Last of Us - Part I</a>
+                                <a href="https://www.playstation.com/pt-br/games/the-last-of-us-part-ii-remastered/?pid=UP9000-CUSA07820_00-THELASTOFUSPART2&pdpr=1"
+                                    target="_blank">The Last of Us - Part II</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li> <a href="serie.html">Serie</a> </li>
+                </ul>
+            </div>
         </div>
 
         <div class="section_sobre_1">
