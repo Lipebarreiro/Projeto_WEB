@@ -18,6 +18,9 @@ Criei este projeto para nós fãs e para aqueles que se interessarem pelo mundo 
 - **CSS**
 - **JavaScript**
 
+## Acesse o site do projeto 
+[lipebarreiro.github.io/Projeto_WEB](https://lipebarreiro.github.io/Projeto_WEB)
+
 ## Contato
 
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato através do email: "lipebarreiro3@gmail.com".
